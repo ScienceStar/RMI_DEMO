@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RMI_DEMO:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RMI_DEMO</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RMI_Demo.war">
+      <element id="artifact" artifact-name="RMI_DEMO:war exploded" />
+    </root>
+  </artifact>
+</component>
